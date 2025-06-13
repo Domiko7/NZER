@@ -74,17 +74,6 @@ function earthquakeReport(mag, depth, time, location, mmi) {
     
 }
 
-function reportEarthquake() {
-    let earthquakeData;
-    fetchReportsNZ(0)
-        .then(response => response)
-        .then(data => {
-            earthquakeData = data.features[0].properties;
-            console.log(earthquakeData);
-            return earthquakeData;
-        })
-}
-//let lastData = reportEarthquake();
 let lastData;
 
 setInterval(() => {
