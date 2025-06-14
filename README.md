@@ -4,6 +4,10 @@
 ------
 
 - NZER = New Zealand Earthquake Reports
+
+if u want to check out the lite version (without tts and just shows the last earthquake):
+https://github.com/Domiko7/NZER-lite
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
